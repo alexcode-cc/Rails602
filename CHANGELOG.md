@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/alexcode-cc/Rails601/compare/0.2.1...0.2.2) (2023-03-10)
+
+
+### Features
+
+* add release/push scripts ([0ef4446](https://github.com/alexcode-cc/Rails601/commit/0ef4446b04ce32e9038d0b6f39a055d5b437be29))
+
+
+
 ## [0.2.1](https://github.com/alexcode-cc/Rails601/compare/0.2.0...0.2.1) (2023-03-10)
 
 
