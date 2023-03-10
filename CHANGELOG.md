@@ -3,7 +3,8 @@
 
 ### Bug Fixes
 
-* **changelog.md:** commit url typo ([7257a6c](https://github.com/alexcode-cc/Rails601/commit/7257a6c40915795af3320ac9df9b30f016cf02ec))
+* **changelog.md:** commit url typo ([73c64f6](https://github.com/alexcode-cc/Rails601/commit/73c64f6dbe18247beddfae6176904d4c7ce5747d
+))
 
 
 
