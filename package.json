@@ -10,7 +10,13 @@
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
+	"scripts": {
+		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+		"changelog:first": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+		"changelog:try": "conventional-changelog -p angulard",
+		"changelog:help": "conventional-changelog --help"
+	},
   "devDependencies": {
     "webpack-dev-server": "^3"
   }
