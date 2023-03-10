@@ -1,0 +1,56 @@
+<p id="notice"><%= notice %></p>
+<h1><%= Rails.application.class.name.split(/::/)[0] %></h1>
+<hr>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stage</td>
+      <td>Production</td>
+    </tr>
+    <tr>
+      <td>Rails Version</td>
+      <td><%= Rails.version %></td>
+    </tr>
+    <tr>
+      <td>Ruby Version</td>
+      <td><%= RUBY_VERSION %></td>
+    </tr>
+    <tr>
+      <td>Rails Env</td>
+      <td><%= Rails.env %></td>
+    </tr>
+    <tr>
+      <td>Rails Database</td>
+      <td><%= @adapter %></td>
+    </tr>
+    <tr>
+      <td>Host</td>
+      <td><%= @host %></td>
+    </tr>
+    <tr>
+      <td>IP</td>
+      <td><%= @ip %></td>
+    </tr>
+    <tr>
+      <td>Remote IP</td>
+      <td><%= @remote_ip %></td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td><%= Time.current.to_s(:long) %></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+<p>
+<%= link_to 'Home', root_path %>
+
+
+
+
