@@ -1,4 +1,8 @@
-# [0.2.0](/compare/0.1.1...0.2.0) (2023-03-10)
+## [0.2.1](https://github.com/alexcode-cc/Rails601/compare/0.2.0...0.2.1) (2023-03-10)
+
+
+
+# [0.2.0](https://github.com/alexcode-cc/Rails601/compare/0.1.1...0.2.0) (2023-03-10)
 
 
 ### Features
@@ -7,7 +11,7 @@
 
 
 
-## [0.1.1](/compare/0.1.0...0.1.1) (2023-03-10)
+## [0.1.1](https://github.com/alexcode-cc/Rails601/compare/0.1.0...0.1.1) (2023-03-10)
 
 
 ### Features

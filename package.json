@@ -1,6 +1,17 @@
 {
   "name": "rails601",
   "private": true,
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/alexcode-cc/Rails601.git"
+  },
+  "version": "0.2.1",
+	"scripts": {
+		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+		"changelog:first": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+		"changelog:try": "conventional-changelog -p angulard",
+		"changelog:help": "conventional-changelog --help"
+	},
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
@@ -10,13 +21,6 @@
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
-  "version": "0.2.0",
-	"scripts": {
-		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-		"changelog:first": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-		"changelog:try": "conventional-changelog -p angulard",
-		"changelog:help": "conventional-changelog --help"
-	},
   "devDependencies": {
     "webpack-dev-server": "^3"
   }
